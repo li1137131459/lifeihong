@@ -16,7 +16,7 @@ public class TestClient1Contrioller {
 
     @Autowired
     private TestClient2Api testClient2Api;
-
+//    qwerqw
     @RequestMapping("test01")
     public String test1(){
         String test01 = testClient2Api.test01();
